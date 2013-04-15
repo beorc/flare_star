@@ -1,0 +1,15 @@
+<obj active="off" id="101">
+	<equipment>
+		<slots>
+			<eqslot x="60" y="60" z="-400" slottype="3"/>			
+		</slots>
+		<bonuses>
+            <bonus lid="2"/>
+        </bonuses>
+	</equipment>
+	<AI>
+		<strategies>			
+			<strategy class="AISightNAttackStrategy" target_id="100" rotation_speed="5"/>
+		</strategies>
+	</AI>	
+</obj>

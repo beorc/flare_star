@@ -1,0 +1,21 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.4" author="OgreMax Scene Exporter by Derek Nedelman (www.ogremax.com)">
+    <environment>
+        <colourAmbient r="0" g="0" b="0" />
+        <colourBackground r="1" g="1" b="1" />
+    </environment>
+    <nodes>
+        <node name="muzzle1">
+            <scale x="1" y="1" z="1" />
+            <position x="-8.83955" y="-3.86959" z="0.090431" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="muzzle1" id="3" meshFile="muzzle1.mesh" castShadows="true" receiveShadows="true">
+                <vertexBuffer usage="static" useShadow="false" />
+                <indexBuffer usage="static" useShadow="false" />
+                <subentities>
+                    <subentity index="0" materialName="MuzzleBack" />
+                    <subentity index="1" materialName="MuzzleFront" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>

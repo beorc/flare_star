@@ -1,0 +1,49 @@
+material 08 - Default_OgreMax
+{
+	receive_shadows off
+	transparency_casts_shadows off
+	technique Map #4
+	{
+		pass Map #5
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+			emissive 0 0 0 1
+			scene_blend one zero
+			depth_check on
+			depth_write on
+			depth_func less_equal
+			depth_bias 0 0
+			alpha_rejection always_pass 0
+			cull_hardware clockwise
+			cull_software back
+			lighting on
+			shading gouraud
+			polygon_mode solid
+			colour_write on
+			max_lights 8
+			start_light 0
+			iteration once 
+			texture_unit Map #6
+			{
+				texture texture copy.jpg 2d unlimited  
+				binding_type fragment
+				tex_coord_set 0
+				tex_address_mode wrap wrap wrap
+				tex_border_colour 0 0 0 1
+				filtering trilinear
+				max_anisotropy 1
+				mipmap_bias 0
+				colour_op_ex modulate src_texture src_current 1 1 1 1 1 1 1
+				alpha_op_ex modulate src_texture src_current 1 1 1
+				colour_op_multipass_fallback one zero
+				env_map off
+			}
+
+		}
+
+	}
+
+}
+

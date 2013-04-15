@@ -1,0 +1,7 @@
+<weapon class="GenericWeapon" timeout="2000" slottype="3" dirx="0" diry="0" dirz="1" barrel="-6000" cone_angle="30">
+	<ammo lid="34"/>
+	<!--<effects>
+		<effect class="MeshEffect" lid="16"/>
+	</effects>
+	<crosshair material="Crosshairs/Fire" min_distance="700" max_distance="2000" size="50"/>-->
+</weapon>

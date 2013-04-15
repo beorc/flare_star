@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<effect name="container_bonus_speed_eff" duration="500" type="permanent" run="1">	
+	<subeffects>
+		<subeffect class="BillboardSubEffect">
+			<billboard size="2000"/>	
+			<material name="Bonuses/BonusSpeed"/>
+		</subeffect>
+	</subeffects>
+</effect>

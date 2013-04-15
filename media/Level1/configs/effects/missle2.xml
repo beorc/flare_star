@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<effect name="missle1" duration="500" type="permanent" size="1000" run="1">	
+	<subeffects>
+		<subeffect class="BillboardSubEffect" duration="500" size="1000" run="1">	
+			<billboard size="1000" point_render="off"/>	
+			<material name="Bullets/Rocket1"/>
+		</subeffect>
+	</subeffects>
+</effect>

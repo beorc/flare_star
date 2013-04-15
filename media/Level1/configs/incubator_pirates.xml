@@ -1,0 +1,7 @@
+<incubator period="30000" x="0" y="0" z="0" active="off" id="102" born_tout="1000" fire_number="3">
+	<obj class="Dynamic Physics" cfg="pirate_sergant.xml" x="-15000" y="-15000" z="-15000" fire_number="-2"/>
+	<obj class="Dynamic Physics" cfg="pirate_commander.xml" x="50000" y="50000" z="50000" fire_number="0"/>
+	<obj class="Dynamic Physics" cfg="pirate_commander.xml" x="50000" y="50000" z="-50000" fire_number="0"/>
+	<obj class="Dynamic Physics" cfg="pirate_commander.xml" x="50000" y="-50000" z="50000" fire_number="0"/>
+	<obj class="Dynamic Physics" cfg="pirate_commander.xml" x="-50000" y="50000" z="50000" fire_number="0"/>
+</incubator>

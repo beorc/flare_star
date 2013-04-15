@@ -1,0 +1,138 @@
+<!-- no comments -->
+<incubator period="1000" x="0" y="0" z="0" rndpos_x="1000" rndpos_y="100" rndpos_z="100" id="-1" volatile="on" dir_x="0" dir_y="0" dir_z="1">	
+
+<!-- right: 50000, 0, 100000 -->
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="20000" y="40000" z="100000" period="5000" dir_x="-30" dir_y="0" dir_z="-100"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="50000" y="40000" z="100000" period="6000" dir_x="-30" dir_y="10" dir_z="-100"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="80000" y="40000" z="100000" period="7000" dir_x="-30" dir_y="0" dir_z="-100"/>
+
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="20000" y="0" z="100000" period="8000" dir_x="-30" dir_y="0" dir_z="-100"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="50000" y="0" z="100000" period="9000" dir_x="-30" dir_y="0" dir_z="-100"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="80000" y="0" z="100000" period="10000" dir_x="-30" dir_y="10" dir_z="-100"/>
+
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="20000" y="-40000" z="100000" period="11000" dir_x="-30" dir_y="10" dir_z="-100"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="50000" y="-40000" z="100000" period="12000" dir_x="-30" dir_y="0" dir_z="-100"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="80000" y="-40000" z="100000" period="13000" dir_x="-30" dir_y="0" dir_z="-100"/>
+	
+	<!-- left: -100000, 0, 80000 -->
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-20000" y="40000" z="100000" period="5000" dir_x="30" dir_y="0" dir_z="-100"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-50000" y="40000" z="100000" period="6000" dir_x="30" dir_y="0" dir_z="-100"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-80000" y="40000" z="100000" period="7000" dir_x="30" dir_y="10" dir_z="-100"/>
+
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-20000" y="0" z="100000" period="8000" dir_x="30" dir_y="0" dir_z="-100"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-50000" y="0" z="100000" period="9000" dir_x="30" dir_y="10" dir_z="-100"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-80000" y="0" z="100000" period="10000" dir_x="30" dir_y="0" dir_z="-100"/>
+
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-20000" y="-40000" z="100000" period="11000" dir_x="30" dir_y="10" dir_z="-100"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-50000" y="-40000" z="100000" period="12000" dir_x="30" dir_y="0" dir_z="-100"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-80000" y="-40000" z="100000" period="13000" dir_x="30" dir_y="0" dir_z="-100"/>
+	
+	<!-- down: 0, -40000, 30000  -->
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-35000" y="-100000" z="15000" period="11000" dir_x="0" dir_y="5" dir_z="-1"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="0" y="-100000" z="15000" period="2000" dir_x="0" dir_y="5" dir_z="-1"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="35000" y="-100000" z="15000" period="3000" dir_x="0" dir_y="5" dir_z="-1"/>
+
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-35000" y="-100000" z="-20000" period="4000" dir_x="0" dir_y="5" dir_z="-1"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="0" y="-100000" z="-20000" period="5000" dir_x="0" dir_y="5" dir_z="-1"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="35000" y="-100000" z="-20000" period="6000" dir_x="0" dir_y="5" dir_z="-1"/>
+
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-35000" y="-100000" z="-55000" period="7000" dir_x="0" dir_y="5" dir_z="-1"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="0" y="-100000" z="-55000" period="8000" dir_x="0" dir_y="5" dir_z="-1"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="35000" y="-100000" z="-55000" period="9000" dir_x="0" dir_y="5" dir_z="-1"/>
+	
+	<!-- front: 0, 30000, -100000 -->
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-25000" y="25000" z="-100000" period="10000" dir_x="0" dir_y="-1" dir_z="5"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="0" y="30000" z="-100000" period="11000" dir_x="0" dir_y="-2" dir_z="5"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="25000" y="25000" z="-100000" period="12000" dir_x="0" dir_y="-1" dir_z="5"/>
+	
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-25000" y="-25000" z="-100000" period="13000" dir_x="0" dir_y="1" dir_z="5"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="0" y="-30000" z="-100000" period="14000" dir_x="0" dir_y="2" dir_z="5"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="25000" y="-25000" z="-100000" period="15000" dir_x="0" dir_y="1" dir_z="5"/>
+	
+	<!-- dummies-->
+	
+	<obj class="Dynamic Physics" cfg="meteorit6.xml" x="90000" y="-40000" z="100000" period="2000" dir_x="-10" dir_y="10" dir_z="-100"/>
+	<obj class="Dynamic Physics" cfg="meteorit6.xml" x="120000" y="0" z="100000" period="4000" dir_x="-10" dir_y="0" dir_z="-100"/>
+	<obj class="Dynamic Physics" cfg="meteorit6.xml" x="150000" y="40000" z="100000" period="6000" dir_x="-10" dir_y="0" dir_z="-100"/>
+	
+	<obj class="Dynamic Physics" cfg="meteorit6.xml" x="-90000" y="-40000" z="100000" period="8000" dir_x="10" dir_y="0" dir_z="-100"/>
+	<obj class="Dynamic Physics" cfg="meteorit6.xml" x="-120000" y="0" z="100000" period="10000" dir_x="10" dir_y="0" dir_z="-100"/>
+	<obj class="Dynamic Physics" cfg="meteorit6.xml" x="-150000" y="40000" z="100000" period="11000" dir_x="10" dir_y="10" dir_z="-100"/>
+	 
+	
+<!-- left down: -100000, -40000, -20000
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-100000" y="-20000" z="-55000" period="5000" dir_x="5" dir_y="5" dir_z="-1"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-100000" y="-20000" z="-20000" period="6000" dir_x="5" dir_y="5" dir_z="-1"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-100000" y="-20000" z="15000" period="7000" dir_x="5" dir_y="5" dir_z="-1"/>
+
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-100000" y="-55000" z="-55000" period="8000" dir_x="5" dir_y="5" dir_z="-1"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-100000" y="-55000" z="-20000" period="9000" dir_x="5" dir_y="5" dir_z="-1"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-100000" y="-55000" z="15000" period="109000" dir_x="5" dir_y="5" dir_z="-1"/>
+
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-100000" y="-90000" z="-55000" period="11000" dir_x="5" dir_y="5" dir_z="-1"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-100000" y="-90000" z="-20000" period="12000" dir_x="5" dir_y="5" dir_z="-1"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-100000" y="-90000" z="15000" period="13000" dir_x="5" dir_y="5" dir_z="-1"/>
+	  -->
+<!-- down: 0, -40000, 30000  
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-35000" y="-100000" z="15000" period="5000" dir_x="0" dir_y="5" dir_z="-1"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="0" y="-100000" z="15000" period="6000" dir_x="0" dir_y="5" dir_z="-1"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="35000" y="-100000" z="15000" period="7000" dir_x="0" dir_y="5" dir_z="-1"/>
+
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-35000" y="-100000" z="-20000" period="8000" dir_x="0" dir_y="5" dir_z="-1"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="0" y="-100000" z="-20000" period="9000" dir_x="0" dir_y="5" dir_z="-1"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="35000" y="-100000" z="-20000" period="10000" dir_x="0" dir_y="5" dir_z="-1"/>
+
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-35000" y="-100000" z="-55000" period="11000" dir_x="0" dir_y="5" dir_z="-1"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="0" y="-100000" z="-55000" period="12000" dir_x="0" dir_y="5" dir_z="-1"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="35000" y="-100000" z="-55000" period="13000" dir_x="0" dir_y="5" dir_z="-1"/>
+	-->
+	<!-- front: 0, 30000, -100000 
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-25000" y="25000" z="-100000" period="10000" dir_x="0" dir_y="-1" dir_z="5"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="0" y="30000" z="-100000" period="11000" dir_x="0" dir_y="-2" dir_z="5"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="25000" y="25000" z="-100000" period="12000" dir_x="0" dir_y="-1" dir_z="5"/>
+	
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="-25000" y="-25000" z="-100000" period="13000" dir_x="0" dir_y="1" dir_z="5"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="0" y="-30000" z="-100000" period="14000" dir_x="0" dir_y="2" dir_z="5"/>
+	<obj class="Dynamic Physics" cfg="meteorit5.xml" x="25000" y="-25000" z="-100000" period="15000" dir_x="0" dir_y="1" dir_z="5"/>
+-->
+	
+<!-- 1 micro 
+	<obj class="Dynamic Physics" cfg="meteorit1.xml" x="-6000" y="6000" z="1000" period="10000"/>
+	<obj class="Dynamic Physics" cfg="meteorit1.xml" x="0" y="0" z="1000" period="10000"/>
+	<obj class="Dynamic Physics" cfg="meteorit1.xml" x="6000" y="4000" z="1000" period="10000"/>-->
+
+<!-- 2 micro 
+	<obj class="Dynamic Physics" cfg="meteorit1.xml" x="-6000" y="0" z="1000" period="10000"/>
+	<obj class="Dynamic Physics" cfg="meteorit1.xml" x="0" y="0" z="1000" period="10000"/>
+	<obj class="Dynamic Physics" cfg="meteorit1.xml" x="6000" y="0" z="1000" period="10000"/>-->
+
+<!-- 3 micro
+	<obj class="Dynamic Physics" cfg="meteorit1.xml" x="-6000" y="-6000" z="1000" period="10000"/>
+	<obj class="Dynamic Physics" cfg="meteorit1.xml" x="0" y="-6000" z="1000" period="10000"/>
+	<obj class="Dynamic Physics" cfg="meteorit1.xml" x="6000" y="-6000" z="1000" period="10000"/> -->
+	
+<!-- small 
+	<obj class="Dynamic Physics" cfg="meteorit3.xml" x="-9000" y="9000" z="200" dir_x="2" dir_y="2" dir_z="5"/>
+	<obj class="Dynamic Physics" cfg="meteorit3.xml" x="100" y="8500" z="100" dir_x="2" dir_y="5" dir_z="2"/>
+	<obj class="Dynamic Physics" cfg="meteorit3.xml" x="8500" y="10000" z="400" dir_x="5" dir_y="2" dir_z="2"/>	
+
+	<obj class="Dynamic Physics" cfg="meteorit3.xml" x="-8500" y="0" z="500" dir_x="3" dir_y="1" dir_z="1"/>
+	<obj class="Dynamic Physics" cfg="meteorit3.xml" x="200" y="0" z="300" dir_x="3" dir_y="2" dir_z="1"/>
+	<obj class="Dynamic Physics" cfg="meteorit3.xml" x="9000" y="0" z="200" dir_x="2" dir_y="1" dir_z="5"/>	
+
+	<obj class="Dynamic Physics" cfg="meteorit3.xml" x="-10000" y="-10000" z="0" dir_x="3" dir_y="5" dir_z="4"/>
+	<obj class="Dynamic Physics" cfg="meteorit3.xml" x="0" y="-10000" z="200" dir_x="1" dir_y="4" dir_z="1"/>
+	<obj class="Dynamic Physics" cfg="meteorit3.xml" x="10000" y="-10000" z="300" dir_x="3" dir_y="3" dir_z="1"/>
+	-->
+<!-- 1 big
+	<obj class="Dynamic Physics" cfg="meteorit4.xml" x="-25000" y="25000" z="0" period="10000"/>
+	<obj class="Dynamic Physics" cfg="meteorit4.xml" x="0" y="25000" z="0" period="10000"/>
+	<obj class="Dynamic Physics" cfg="meteorit4.xml" x="25000" y="25000" z="0" period="10000"/> -->
+<!-- 2 big
+	<obj class="Dynamic Physics" cfg="meteorit4.xml" x="-25000" y="0" z="0" period="10000"/>
+	<obj class="Dynamic Physics" cfg="meteorit4.xml" x="25000" y="0" z="0" period="10000"/> -->
+<!-- 3 big 
+	<obj class="Dynamic Physics" cfg="meteorit4.xml" x="-25000" y="-25000" z="0" period="10000"/>
+	<obj class="Dynamic Physics" cfg="meteorit4.xml" x="0" y="-25000" z="0" period="10000"/>
+	<obj class="Dynamic Physics" cfg="meteorit4.xml" x="25000" y="-25000" z="0" period="10000"/>-->	
+</incubator>

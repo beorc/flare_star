@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout">
+    <Widget type="Window" skin="WindowC" position_real="0.25 0.25333333 0.459999979 0.346666664" layer="Main">
+        <Property key="Widget_Caption" value="New Game"/>
+        <Widget type="Button" skin="ButtonSmall" position_real="0.0584958233 0.709302306 0.378830075 0.186046511" name="NewGameButtonOK">
+            <Property key="Widget_Caption" value="OK"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonSmall" position_real="0.548746526 0.709302306 0.378830075 0.186046511" name="NewGameButtonCancel">
+            <Property key="Widget_Caption" value="Cancel"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position_real="0.125348195 0.197674423 0.267409474 0.139534891">
+            <Property key="Widget_Caption" value="Enter name:"/>
+        </Widget>
+        <Widget type="Edit" skin="Edit" position_real="0.459610015 0.197674423 0.490250707 0.139534891" name="NewGameEditName">
+            <Property key="Widget_Caption" value=""/>
+        </Widget>
+    </Widget>
+    <Widget type="StaticImage" skin="StaticImage" position_real="0 0 1 1" align="ALIGN_STRETCH" layer="Back">
+        <Property key="Image_Texture" value="wallpaper.jpg"/>
+    </Widget>
+</MyGUI>

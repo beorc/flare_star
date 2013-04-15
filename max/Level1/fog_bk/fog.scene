@@ -1,0 +1,28 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.4" author="OgreMax Scene Exporter by Derek Nedelman (www.ogremax.com)">
+    <environment>
+        <colourAmbient r="0.847059" g="0.905882" b="0.870588" />
+        <colourBackground r="0" g="0" b="0" />
+    </environment>
+    <nodes>
+        <node name="fog_bk">
+            <scale x="1" y="1" z="1" />
+            <position x="0" y="0" z="0" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="fog_bk" id="1" meshFile="fog_bk.mesh" castShadows="true" receiveShadows="true">
+                <subentities>
+                    <subentity index="0" materialName="fog_bk_material" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Cylinder01">
+            <scale x="1" y="1" z="1" />
+            <position x="2509.61" y="0" z="790.416" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Cylinder01" id="3" meshFile="Cylinder01.mesh" castShadows="true" receiveShadows="true">
+                <subentities>
+                    <subentity index="0" materialName="NoMaterial" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>

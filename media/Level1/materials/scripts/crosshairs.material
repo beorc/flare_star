@@ -1,0 +1,19 @@
+
+material Crosshairs/Fire
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit
+			{				
+				texture crosshair.png
+				colour_op_ex blend_texture_alpha
+			}
+		}
+	}
+}

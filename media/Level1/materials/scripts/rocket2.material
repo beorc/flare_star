@@ -1,0 +1,24 @@
+material Bullets/Rocket1
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check on
+			depth_write off
+			point_sprites on
+			//point_size 10.0
+			//point_size_min 0.0 
+			//point_size_max 50.0
+			point_size_attenuation on 0 1 0
+
+			texture_unit
+			{				
+				texture fireball2.png
+				colour_op_ex blend_texture_alpha
+			}
+		}
+	}
+}

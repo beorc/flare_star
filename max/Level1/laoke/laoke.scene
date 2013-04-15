@@ -1,0 +1,28 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.4" author="OgreMax Scene Exporter by Derek Nedelman (www.ogremax.com)">
+    <environment>
+        <colourAmbient r="0" g="0" b="0" />
+        <colourBackground r="0.729412" g="0.827451" b="0.85098" />
+    </environment>
+    <nodes>
+        <node name="laoke">
+            <scale x="1" y="1" z="1" />
+            <position x="1.48378" y="-36.7541" z="199.674" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="laoke" id="1" meshFile="laoke.mesh" castShadows="true" receiveShadows="true">
+                <subentities>
+                    <subentity index="0" materialName="laoke_mat" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="laoke_collision">
+            <scale x="1" y="1" z="1" />
+            <position x="-2.42749" y="-36.7541" z="-72.5662" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="laoke_collision" id="6" meshFile="laoke_collision.mesh" castShadows="true" receiveShadows="true">
+                <subentities>
+                    <subentity index="0" materialName="NoMaterial" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>

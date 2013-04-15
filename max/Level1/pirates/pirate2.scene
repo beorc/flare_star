@@ -1,0 +1,18 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.4" author="OgreMax Scene Exporter by Derek Nedelman (www.ogremax.com)">
+    <environment>
+        <colourAmbient r="0" g="0" b="0" />
+        <colourBackground r="0.74902" g="0.835294" b="0.882353" />
+    </environment>
+    <nodes>
+        <node name="pirate1">
+            <scale x="1" y="1" z="1" />
+            <position x="2.66661e-006" y="0" z="0" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="pirate1" id="111" meshFile="pirate1.mesh" castShadows="true" receiveShadows="true">
+                <subentities>
+                    <subentity index="0" materialName="Material #2" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>

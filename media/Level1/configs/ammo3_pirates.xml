@@ -1,0 +1,4 @@
+<ammo class="BillboardAmmo" name="bullet1" duration="500" type="permanent" roomable="on" room_only="0" room_store="0" velocity="50" damage="30" size="50" physical="notphys_dynamic" lifetime="5000">
+	<billboard size="50" point_render="on"/>	
+	<material name="Bullets/Bullet1"/>
+</ammo>

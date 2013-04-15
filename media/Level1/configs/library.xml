@@ -1,0 +1,41 @@
+<objects_library>	
+	<object lid="1" filename="container1.xml"/>
+	<object lid="2" filename="container2.xml"/>
+	<!--<object lid="3" filename="ammo1.xml"/>-->
+	<object lid="4" filename="ammo2.xml"/>
+	<object lid="5" filename="ammo3.xml"/>
+	<object lid="6" filename="container3.xml"/>
+	<object lid="7" filename="fog_bg.xml"/>
+	<object lid="8" filename="container4.xml"/>
+	<object lid="9" filename="ammo4.xml"/>
+	<object lid="10" filename="weapon3.xml"/>
+	<object lid="11" filename="weapon3_ws.xml"/>
+	<object lid="12" filename="weapon4.xml"/>
+	<object lid="13" filename="weapon2.xml"/>
+	
+	<object lid="14" filename="container2_eff.xml"/>
+	<object lid="15" filename="missle2.xml"/>
+	<object lid="16" filename="muzzle.xml"/>
+	<object lid="17" filename="muzzle_ws.xml"/>
+	<object lid="18" filename="enemy1.xml"/>
+	<object lid="19" filename="laoke1.xml"/>
+	<object lid="20" filename="fog_bg1.xml"/>
+	<object lid="21" filename="sky_sphere.xml"/>
+	<object lid="22" filename="comix_intro.xml"/>
+	<object lid="23" filename="comix_transport.xml"/>	
+	<object lid="24" filename="missle3.xml"/>
+	<object lid="25" filename="ammo3_pirates.xml"/>	
+	<object lid="26" filename="weapon5.xml"/>
+	<object lid="27" filename="weapon5_ws.xml"/>
+	<object lid="28" filename="container_pirates.xml"/>	
+	<object lid="29" filename="container_bonus_speed.xml"/>
+	<object lid="30" filename="bonus_speed.xml"/>
+	<object lid="31" filename="container_bonus_speed_eff.xml"/>
+	<object lid="32" filename="container_pirate_commander.xml"/>
+	<object lid="33" filename="pirate_srg_rocket_lchr.xml"/>	
+	<object lid="34" filename="pirate_srg_rocket.xml"/>
+	<object lid="35" filename="muzzle_pirate.xml"/>
+	<object lid="36" filename="muzzle_pirate_ws.xml"/>
+	
+	<object lid="37" filename="turnbased1.xml"/>
+</objects_library>

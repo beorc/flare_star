@@ -1,0 +1,38 @@
+<obj physical="dynamic" class="Dynamic Physics" modelname="pirate1.mesh"  collismodel="pirat_collision.mesh" collisdetection="mesh" collisresponse="trikick" roomable="on" room_only="0" group="alien" id="-1">
+				<equipment>
+					<slots>
+						<eqslot x="60" y="60" z="-400" slottype="1"/>
+						<eqslot x="-60" y="60" z="-400" slottype="2"/>
+					</slots>
+					<bonuses>
+						<bonus lid="1"/>
+					</bonuses>
+				</equipment>
+				<AI>
+					<strategies>
+						<!--<strategy class="AIRayPathFinderStrategy" target_id="1" raysnum="9" dist_to_target="4000"/>
+						<strategy class="AISightNAttackStrategy" target_id="1" rotation_speed="20"/>
+						<strategy class="AIRowFormationCommander" x="100" y="100" z="100">
+							<obj class="Dynamic Physics" lid="18" x="1200" y="0" z="0"/>
+							<obj class="Dynamic Physics" lid="18" x="2400" y="0" z="0"/>					
+						</strategy>-->
+						<strategy class="AIRayPathFinderStrategy" target_id="1" raysnum="9" dist_to_target="100"/>
+						<strategy class="AIFlyNAttack1Strategy" target_id="1" rotation_speed="20" min_dist="10000" max_dist="40000" buffer_dist="5000"/>						
+						<strategy class="AIAckerFormationCommander" x="100" y="100" z="100" waypoints_dist="2000" fixed_waypoints="1">
+							<obj class="Dynamic Physics" lid="18" x="1200" y="0" z="0"/>
+							<obj class="Dynamic Physics" lid="18" x="2400" y="0" z="0"/>
+						</strategy>
+					</strategies>			
+				</AI>
+				<destructable max_health="100000" health="10"/>				
+				<scripting>					
+					<handler action="killed" function="PirateKilled"/>
+				</scripting>
+				<physics maxspeed_x="30" maxspeed_y="30" maxspeed_z="200" stepspeed_x="20" stepspeed_y="20" stepspeed_z="20" mass="30">
+				</physics>
+				<bonuses_keeper>			
+		            <bonuses>                
+						<bonus class="bonus" active="0" drop_prob="100" lid="29"/>
+		            </bonuses>
+				</bonuses_keeper>
+</obj>

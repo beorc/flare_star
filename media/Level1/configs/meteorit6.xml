@@ -1,0 +1,8 @@
+<obj physical="dynamic" class="Dynamic Physics" modelname="meteo2.mesh"  collismodel="meteo2_collision.mesh" collisdetection="mesh" collisresponse="trikick" x="0" y="0" z="0" id="-1" roomable="on" room_only="0" lifetime="25000">
+<scripting>
+	<handler action="register" function="MeteoDummy"/>
+</scripting>
+<physics maxspeed_x="10" maxspeed_y="10" maxspeed_z="10" stepspeed_x="20" stepspeed_y="20" stepspeed_z="20" mass="180">
+</physics>
+</obj>	
+

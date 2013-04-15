@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout">
+    <Widget type="Widget" skin="PanelSmall" position_real="0.0137499999 0.168333337 0.39624998 0.626666665" layer="Main">
+        <Property key="Widget_Alpha" value="0"/>
+        <Widget type="Button" skin="ButtonSmall" position_real="0.0788643509 0.0664893612 0.851734996 0.132978722" name="LoadGameButton1">
+            <Property key="Widget_Caption" value="Empty"/>
+            <Property key="Widget_InheritsAlpha" value="false"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonSmall" position_real="0.0788643509 0.226063833 0.851734996 0.132978722" name="LoadGameButton2">
+            <Property key="Widget_Caption" value="Empty"/>
+            <Property key="Widget_InheritsAlpha" value="false"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonSmall" position_real="0.0788643509 0.385638297 0.851734996 0.132978722" name="LoadGameButton3">
+            <Property key="Widget_Caption" value="Empty"/>
+            <Property key="Widget_InheritsAlpha" value="false"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonSmall" position_real="0.0788643509 0.545212746 0.851734996 0.132978722" name="LoadGameButton4">
+            <Property key="Widget_Caption" value="Empty"/>
+            <Property key="Widget_InheritsAlpha" value="false"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonSmall" position_real="0.0757097825 0.704787254 0.851734996 0.132978722" name="LoadGameButton5">
+            <Property key="Widget_Caption" value="Empty"/>
+            <Property key="Widget_InheritsAlpha" value="false"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonSmall" position_real="0.252365917 0.885638297 0.529968441 0.0851063803" name="LoadGameButtonCancel">
+            <Property key="Widget_Caption" value="Cancel"/>
+            <Property key="Widget_InheritsAlpha" value="false"/>
+        </Widget>
+    </Widget>
+    <Widget type="StaticImage" skin="StaticImage" position_real="0 0 1 1" align="ALIGN_STRETCH" layer="Back">
+        <Property key="Image_Texture" value="wallpaper.jpg"/>
+    </Widget>
+</MyGUI>

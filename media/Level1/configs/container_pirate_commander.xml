@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<trigger class="container" min_x="-500" min_y="-500" min_z="-500" max_x="500" max_y="500" max_z="500">
+	<effects run="1">
+			<effect class="BillboardEffect" lid="14"/>		
+	</effects>	
+	<contents>		
+		<content class="weapon" lid="33"/>		
+	</contents>
+</trigger>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<weapon modelname="gun1.mesh" class="GenericWeapon" timeout="200" slottype="2" dirx="0" diry="0" dirz="1" irx="0" iry="0" irz="-20" barrel="-200" dispersion="0.05">
+	<ammo lid="5"/>
+	<effects>
+		<effect lid="17"/>
+	</effects>
+	<crosshair material="Crosshairs/Fire" min_distance="700" max_distance="2000" size="50"/>
+	<description id="1"/>
+</weapon>

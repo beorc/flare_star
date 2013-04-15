@@ -1,0 +1,27 @@
+<obj physical="dynamic" class="Dynamic Physics" modelname="transport.mesh" collismodel="cube.mesh" collisdetection="mesh_sphere" collisresponse="pivotkick" roomable="on" active="off" id="100" room_only="1">
+	<initial_direction x="-10" y="10" z="8"/>
+	<equipment>		
+		<bonuses>
+                <bonus lid="6" drop_prob="100"/>
+        </bonuses>
+	</equipment>
+	<AI>
+		<strategies>		
+			<strategy class="AIRayPathFinderStrategy" type="position" x="-100000" y="100000" z="-210000" raysnum="5"/>
+			<strategy class="AILookStrategy" type="forward"/>
+		</strategies>
+	</AI>
+	<destructable max_health="100" health="100"/>
+	<scripting>
+		<handler action="register" function="TransportCreated"/>
+		<!--<handler action="unregister" function="TransportDeleted"/>-->
+		<handler action="killed" function="TransportKilled"/>
+	</scripting>
+	<physics maxspeed_x="10" maxspeed_y="80" maxspeed_z="120" stepspeed_x="120" stepspeed_y="120" stepspeed_z="120" mass="30">
+	</physics>
+	<bonuses_keeper>			
+            <bonuses>                
+				<bonus class="bonus" active="0" drop_prob="100" lid="29"/>
+            </bonuses>
+	</bonuses_keeper>
+</obj>

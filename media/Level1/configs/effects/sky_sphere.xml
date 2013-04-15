@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<effect name="sky_sphere" duration="200" type="permanent" dirx="0" diry="0" dirz="1" x="0" y="0" z="0" run="1">
+	<subeffects>
+		<subeffect class="MeshSubEffect" duration="200" type="permanent" dirx="0" diry="0" dirz="1" x="0" y="0" z="0">
+			<model modelname="sky_sphere.mesh" render_queue="10"/>	
+			<material/>
+		</subeffect>
+	</subeffects>
+</effect>

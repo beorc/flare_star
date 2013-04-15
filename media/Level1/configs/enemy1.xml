@@ -1,0 +1,24 @@
+<obj physical="dynamic" class="Dynamic Physics" modelname="pirate1.mesh" collismodel="pirat_collision.mesh" collisdetection="mesh" collisresponse="trikick" group="alien" roomable="on" room_only="0" id="-1">	
+	<equipment>
+		<slots>
+			<eqslot x="60" y="60" z="-400" slottype="1"/>			
+		</slots>
+		<bonuses>
+                <bonus lid="28"/>
+        </bonuses>
+	</equipment>
+	<AI>
+		<strategies>		
+			<!--<strategy class="AIRayPathFinderStrategy" raysnum="5" dist_to_target="0"/>-->
+			<strategy class="AIBasicPathFinderStrategy" dist_to_target="100"/>
+			<!--<strategy class="AISightNAttackStrategy" target_id="1" rotation_speed="10"/>-->
+			<strategy class="AIInConeAttackStrategy" target_id="1" rotation_speed="30" cone_angle="60"/>						
+		</strategies>
+	</AI>
+	<destructable max_health="50000" health="10"/>
+	<scripting>					
+		<handler action="killed" function="PirateKilled"/>
+	</scripting>
+	<physics maxspeed_x="30" maxspeed_y="30" maxspeed_z="200" stepspeed_x="2" stepspeed_y="2" stepspeed_z="2" mass="30">
+	</physics>
+</obj>

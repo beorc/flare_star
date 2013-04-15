@@ -1,0 +1,20 @@
+material 03-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.796079 0.847059 
+			diffuse 0.588235 0.796079 0.847059 
+			specular 0 0 0 10
+			emissive 0 0 0 
+
+			texture_unit 
+			{
+				texture tex_rend.jpg
+			}
+		}
+	}
+}
+
+

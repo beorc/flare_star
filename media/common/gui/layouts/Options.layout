@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout">
+    <Widget type="Widget" skin="Panel" position_real="0.152500004 0.200000003 0.75999999 0.653333366" layer="Main">
+        <Widget type="Tab" skin="Tab" position_real="0.0509868413 0.0408163257 0.894736826 0.857142866">
+            <Property key="Widget_Caption" value=""/>
+            <Widget type="Sheet" skin="Sheet" position="8 29 528 300">
+                <Property key="Widget_Caption" value="Graphics"/>
+            </Widget>
+            <Widget type="Sheet" skin="Sheet" position="8 29 528 300">
+                <Property key="Sheet_Select" value="true"/>
+                <Property key="Widget_Caption" value="Sound"/>
+                <Widget type="HScroll" skin="HSlider" position_real="0.303030312 0.226666674 0.378787875 0.0833333358" name="OptionsSliderMusic">
+                    <Property key="Scroll_Range" value="100"/>
+                    <Property key="Scroll_Position" value="50"/>
+                </Widget>
+                <Widget type="Widget" skin="PanelSmall" position_real="0.227272734 0.356666654 0.545454562 0.0799999982">
+                    <Property key="Widget_Caption" value="Sound Volume"/>
+                </Widget>
+                <Widget type="Widget" skin="PanelSmall" position_real="0.227272734 0.116666667 0.545454562 0.0799999982">
+                    <Property key="Widget_Caption" value="Music Volume"/>
+                </Widget>
+                <Widget type="HScroll" skin="HSlider" position_real="0.303030312 0.543333352 0.378787875 0.0833333358" name="OptionsSliderSound">
+                    <Property key="Scroll_Range" value="100"/>
+                    <Property key="Scroll_Position" value="50"/>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="ButtonSmall" position_real="0.223684207 0.918367326 0.236842111 0.0612244904" name="OptionsButtonOK">
+            <Property key="Widget_Caption" value="OK"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonSmall" position_real="0.552631557 0.918367326 0.236842111 0.0612244904" name="OptionsButtonCancel">
+            <Property key="Widget_Caption" value="Cancel"/>
+        </Widget>
+    </Widget>
+    <Widget type="StaticImage" skin="StaticImage" position_real="0 0 1 1" align="ALIGN_STRETCH" layer="Back">
+        <Property key="Image_Texture" value="wallpaper.jpg"/>
+    </Widget>
+</MyGUI>

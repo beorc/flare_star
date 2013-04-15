@@ -1,0 +1,13 @@
+<ammo type="3" class="EulerPhysicsAmmo" roomable="on" room_only="0" room_store="0" velocity="10" damage="34" size="500" physical="dynamic" lifetime="15000" modelname="rocket1.mesh">
+		<effects>
+			<effect class="BillboardEffect" lid="24"/>		
+		</effects>
+		<AI attack_mode="friends">
+			<strategies>			
+				<strategy class="AIBasicPathFinderStrategy" target_id="1"/>
+				<strategy class="AILookStrategy" type="forward" rotation_speed="10"/>				
+			</strategies>
+		</AI>
+		<physics maxspeed_x="360" maxspeed_y="360" maxspeed_z="360" stepspeed_x="20" stepspeed_y="20" stepspeed_z="20" mass="30">
+		</physics>
+</ammo>

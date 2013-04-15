@@ -1,0 +1,8 @@
+<descriptions>	
+	<description id="1">
+		<icon content="HUD/Weapon1"/>		
+	</description>
+	<description id="2">
+		<icon content="HUD/BonusSpeed"/>		
+	</description>	
+</descriptions>

@@ -1,0 +1,29 @@
+<obj physical="dynamic" class="Dynamic Physics" modelname="pirate_srg.mesh"  collismodel="ps_collision.mesh" collisdetection="mesh" collisresponse="trikick" roomable="on" room_only="0" group="alien" id="103">
+				<equipment>
+					<slots>
+						<!--<eqslot x="60" y="60" z="-400" slottype="1"/>
+						<eqslot x="-60" y="60" z="-400" slottype="2"/>-->
+						<eqslot x="0" y="-200" z="-1000" slottype="3"/>
+					</slots>
+					<bonuses>
+						<!--<bonus lid="1"/>-->
+						<bonus lid="32"/>
+					</bonuses>
+				</equipment>
+				<AI>
+					<strategies>
+						<strategy class="AIRayPathFinderStrategy" target_id="1" raysnum="9" dist_to_target="100"/>
+						<strategy class="AIFlyNAttack1Strategy" target_id="1" rotation_speed="40" min_dist="10000" max_dist="40000" buffer_dist="5000"/>
+						<strategy class="AIAckerFormationCommander" x="100" y="100" z="100" waypoints_dist="2000" fixed_waypoints="1">
+							<obj class="Dynamic Physics" lid="18" x="1200" y="0" z="0"/>
+							<obj class="Dynamic Physics" lid="18" x="2400" y="0" z="0"/>
+						</strategy>
+					</strategies>			
+				</AI>
+				<destructable max_health="100000" health="1000"/>
+				<scripting>					
+					<handler action="killed" function="PirateKilled"/>
+				</scripting>
+				<physics maxspeed_x="30" maxspeed_y="30" maxspeed_z="200" stepspeed_x="2" stepspeed_y="2" stepspeed_z="2" mass="30">
+				</physics>
+</obj>

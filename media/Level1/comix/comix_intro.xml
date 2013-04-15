@@ -1,0 +1,32 @@
+<comix inactive_handler="2" time_limit="0">
+	<pages>
+		<page>
+			<images>	
+				<image material="ComixIntro/BackgroundMaterial" render_queue="99">
+					<rect x="-1" y="1" w="2" h="2"/>
+				</image>
+				<image material="ComixIntro/Material1" render_queue="100">
+					<rect x="-0.9" y="1" w="1.8" h="2"/>
+					<action active="1" begin="0" end="5000"/>					
+					<transparency_tracks>
+						<track min="0" max="1" current="0" mode="2" frame_timeout="10" track_time="1000"/>
+					</transparency_tracks>
+				</image>
+			</images>
+		</page>
+		<page>
+			<images>
+				<image material="ComixIntro/BackgroundMaterial" render_queue="99">
+					<rect x="-1" y="1" w="2" h="2"/>
+				</image>
+				<image material="ComixIntro/Material2" render_queue="100">
+					<rect x="-1" y="0.8" w="2" h="1.7"/>
+					<action active="0" begin="0" end="5000"/>					
+					<transparency_tracks>
+						<track min="0" max="1" current="0" mode="2" frame_timeout="10" track_time="1000"/>
+					</transparency_tracks>
+				</image>
+			</images>
+		</page>
+	</pages>
+</comix>

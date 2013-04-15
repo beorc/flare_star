@@ -1,0 +1,33 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.4" author="OgreMax Scene Exporter by Derek Nedelman (www.ogremax.com)">
+    <environment>
+        <colourAmbient r="0.658824" g="0.658824" b="0.658824" />
+        <colourBackground r="1" g="1" b="1" />
+    </environment>
+    <nodes>
+        <node name="pirate_srg">
+            <scale x="1" y="1" z="1" />
+            <position x="0" y="0" z="0" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="pirate_srg" id="8" meshFile="pirate_srg.mesh" castShadows="true" receiveShadows="true">
+                <subentities>
+                    <subentity index="0" materialName="pirate_map" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Illustrate! Art Materials" id="11">
+            <scale x="1" y="1" z="1" />
+            <position x="0" y="0" z="0" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+        </node>
+        <node name="collision_srg">
+            <scale x="1" y="1" z="1" />
+            <position x="-15.8024" y="-139.024" z="-409.408" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="collision_srg" id="19" meshFile="collision_srg.mesh" castShadows="true" receiveShadows="true">
+                <subentities>
+                    <subentity index="0" materialName="NoMaterial" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>

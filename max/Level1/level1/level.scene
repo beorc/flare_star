@@ -1,0 +1,218 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.4" author="OgreMax Scene Exporter by Derek Nedelman (www.ogremax.com)">
+    <environment>
+        <clipping near="10000" far="50000" />
+        <colourAmbient r="0.811765" g="0.831373" b="0.788235" />
+        <colourBackground r="0" g="0" b="0" />
+        <skyBox enable="true" material="Sky" distance="150" drawFirst="true">
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+        </skyBox>
+    </environment>
+    <nodes>
+        <node name="Player" id="7">
+            <scale x="1" y="1" z="1" />
+            <position x="0" y="0" z="500989" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <userData>
+                <![CDATA[<player cfg="player.xml"/>]]>
+</userData>
+        </node>
+        <node name="FDirect01">
+            <scale x="1" y="1" z="1" />
+            <position x="-42012.4" y="0" z="-3908.08" />
+            <rotation qx="-0.579228" qy="-0.122788" qz="-0.40558" qw="-0.696364" />
+            <light name="FDirect01" id="49" type="directional" castShadows="false" power="1.5">
+                <colourDiffuse r="0.862745" g="0.87451" b="0.941177" />
+                <colourSpecular r="0.00392157" g="0.00392157" b="0.00392157" />
+                <lightAttenuation range="200" constant="1" linear="0" quadric="0" />
+            </light>
+        </node>
+        <node name="FDirect02">
+            <scale x="1" y="1" z="1" />
+            <position x="32833.8" y="0" z="34701.6" />
+            <rotation qx="-0.707107" qy="1.83861e-009" qz="0.298836" qw="-0.640856" />
+            <light name="FDirect02" id="144" type="directional" castShadows="false" power="1.3">
+                <colourDiffuse r="0.784314" g="0.788235" b="0.788235" />
+                <colourSpecular r="0.00392157" g="0.00392157" b="0.00392157" />
+                <lightAttenuation range="200" constant="1" linear="0" quadric="0" />
+            </light>
+        </node>
+        <node name="FDirect03">
+            <scale x="1" y="1" z="1" />
+            <position x="29048.2" y="0" z="-51570" />
+            <rotation qx="-0.461572" qy="-0.228097" qz="0.638869" qw="-0.571638" />
+            <light name="FDirect03" id="145" type="point" castShadows="false" power="2">
+                <colourDiffuse r="0.862745" g="0.8" b="0.729412" />
+                <colourSpecular r="0.00392157" g="0.00392157" b="0.00392157" />
+                <lightAttenuation range="200" constant="1" linear="0" quadric="0" />
+            </light>
+        </node>
+        <node name="FDirect04">
+            <scale x="1" y="1" z="1" />
+            <position x="-32407.1" y="-336.563" z="76650.9" />
+            <rotation qx="-0.596368" qy="-0.0922959" qz="-0.379928" qw="-0.701057" />
+            <light name="FDirect04" id="158" type="directional" castShadows="false" power="1.1">
+                <colourDiffuse r="0.768628" g="0.831373" b="0.737255" />
+                <colourSpecular r="0.00392157" g="0.00392157" b="0.00392157" />
+                <lightAttenuation range="200" constant="1" linear="0" quadric="0" />
+            </light>
+        </node>
+        <node name="FDirect05">
+            <scale x="1" y="1" z="1" />
+            <position x="28173.8" y="5496.38" z="143901" />
+            <rotation qx="-0.696364" qy="0.5" qz="0.122788" qw="-0.5" />
+            <light name="FDirect05" id="159" type="directional" castShadows="false" power="1">
+                <colourDiffuse r="0.776471" g="0.843137" b="0.796079" />
+                <colourSpecular r="0.00392157" g="0.00392157" b="0.00392157" />
+                <lightAttenuation range="200" constant="1" linear="0" quadric="0" />
+            </light>
+        </node>
+        <node name="Incubator22" id="160">
+            <scale x="1" y="1" z="1" />
+            <position x="0" y="0" z="30001" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <userData>
+                <![CDATA[<node class="Incubator" cfg="incubator3.xml"/>]]>
+</userData>
+        </node>
+        <node name="Transport" id="162">
+            <scale x="1" y="1" z="1" />
+            <position x="0" y="0" z="-286482" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <userData>
+                <![CDATA[<node class="SceneObject" cfg="transport.xml"/>]]>
+</userData>
+        </node>
+        <node name="Turret" id="163">
+            <scale x="1" y="1" z="1" />
+            <position x="9702.5" y="10000" z="-290000" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <userData>
+                <![CDATA[<node class="SceneObject" cfg="turret.xml"/>]]>
+</userData>
+        </node>
+        <node name="Incubator24" id="164">
+            <scale x="1" y="1" z="1" />
+            <position x="2.55373e-005" y="0" z="-29999" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <userData>
+                <![CDATA[<node class="Incubator" cfg="incubator3.xml"/>]]>
+</userData>
+        </node>
+        <node name="Incubator25" id="165">
+            <scale x="1" y="1" z="1" />
+            <position x="1.32737e-005" y="0" z="-89999" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <userData>
+                <![CDATA[<node class="Incubator" cfg="incubator3.xml"/>]]>
+</userData>
+        </node>
+        <node name="Incubator_pirates" id="166">
+            <scale x="1" y="1" z="1" />
+            <position x="0" y="0" z="-180000" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <userData>
+                <![CDATA[<node class="Incubator" cfg="incubator_pirates.xml"/>]]>
+</userData>
+        </node>
+        <node name="Incubator_laokes" id="167">
+            <scale x="1" y="1" z="1" />
+            <position x="0" y="0" z="-180000" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <userData>
+                <![CDATA[<node class="Incubator" cfg="incubator_laokes.xml"/>]]>
+</userData>
+        </node>
+        <node name="FDirect06">
+            <scale x="1" y="1" z="1" />
+            <position x="-30335.2" y="5496.38" z="202369" />
+            <rotation qx="-0.664463" qy="-0.612372" qz="-0.241845" qw="-0.353553" />
+            <light name="FDirect06" id="169" type="directional" castShadows="false" power="1">
+                <colourDiffuse r="0.823529" g="0.835294" b="0.745098" />
+                <colourSpecular r="0.00392157" g="0.00392157" b="0.00392157" />
+                <lightAttenuation range="200" constant="1" linear="0" quadric="0" />
+            </light>
+        </node>
+        <node name="Incubator26" id="170">
+            <scale x="121.733" y="121.733" z="121.733" />
+            <position x="0" y="0" z="90002" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <userData>
+                <![CDATA[<node class="Incubator" cfg="incubator3.xml"/>]]>
+</userData>
+        </node>
+        <node name="Incubator27" id="195">
+            <scale x="122.403" y="122.403" z="122.403" />
+            <position x="0" y="0" z="210002" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <userData>
+                <![CDATA[<node class="Incubator" cfg="incubator3.xml"/>]]>
+</userData>
+        </node>
+        <node name="Incubator28" id="196">
+            <scale x="135.955" y="135.955" z="135.955" />
+            <position x="0" y="0" z="270002" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <userData>
+                <![CDATA[<node class="Incubator" cfg="incubator3.xml"/>]]>
+</userData>
+        </node>
+        <node name="Incubator29" id="197">
+            <scale x="138.409" y="138.409" z="138.409" />
+            <position x="0" y="0" z="330002" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <userData>
+                <![CDATA[<node class="Incubator" cfg="incubator3.xml"/>]]>
+</userData>
+        </node>
+        <node name="FDirect07">
+            <scale x="1" y="1" z="1" />
+            <position x="-39713.9" y="0" z="231003" />
+            <rotation qx="-0.579228" qy="-0.122788" qz="-0.40558" qw="-0.696364" />
+            <light name="FDirect07" id="199" type="directional" castShadows="false" power="1.5">
+                <colourDiffuse r="0.862745" g="0.87451" b="0.941177" />
+                <colourSpecular r="0.00392157" g="0.00392157" b="0.00392157" />
+                <lightAttenuation range="200" constant="1" linear="0" quadric="0" />
+            </light>
+        </node>
+        <node name="FDirect08">
+            <scale x="1" y="1" z="1" />
+            <position x="35132.3" y="0" z="269613" />
+            <rotation qx="-0.707107" qy="1.83861e-009" qz="0.298836" qw="-0.640856" />
+            <light name="FDirect08" id="200" type="directional" castShadows="false" power="1.3">
+                <colourDiffuse r="0.784314" g="0.788235" b="0.788235" />
+                <colourSpecular r="0.00392157" g="0.00392157" b="0.00392157" />
+                <lightAttenuation range="200" constant="1" linear="0" quadric="0" />
+            </light>
+        </node>
+        <node name="FDirect09">
+            <scale x="1" y="1" z="1" />
+            <position x="-30108.6" y="-336.563" z="311562" />
+            <rotation qx="-0.596368" qy="-0.0922959" qz="-0.379928" qw="-0.701057" />
+            <light name="FDirect09" id="201" type="directional" castShadows="false" power="1.1">
+                <colourDiffuse r="0.768628" g="0.831373" b="0.737255" />
+                <colourSpecular r="0.00392157" g="0.00392157" b="0.00392157" />
+                <lightAttenuation range="200" constant="1" linear="0" quadric="0" />
+            </light>
+        </node>
+        <node name="FDirect10">
+            <scale x="1" y="1" z="1" />
+            <position x="30472.3" y="5496.38" z="378812" />
+            <rotation qx="-0.696364" qy="0.5" qz="0.122788" qw="-0.5" />
+            <light name="FDirect10" id="202" type="directional" castShadows="false" power="1">
+                <colourDiffuse r="0.776471" g="0.843137" b="0.796079" />
+                <colourSpecular r="0.00392157" g="0.00392157" b="0.00392157" />
+                <lightAttenuation range="200" constant="1" linear="0" quadric="0" />
+            </light>
+        </node>
+        <node name="FDirect11">
+            <scale x="1" y="1" z="1" />
+            <position x="-28036.7" y="5496.38" z="437281" />
+            <rotation qx="-0.664463" qy="-0.612372" qz="-0.241845" qw="-0.353553" />
+            <light name="FDirect11" id="203" type="directional" castShadows="false" power="1">
+                <colourDiffuse r="0.823529" g="0.835294" b="0.745098" />
+                <colourSpecular r="0.00392157" g="0.00392157" b="0.00392157" />
+                <lightAttenuation range="200" constant="1" linear="0" quadric="0" />
+            </light>
+        </node>
+    </nodes>
+</scene>

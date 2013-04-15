@@ -1,0 +1,18 @@
+<comix inactive_handler="1" time_limit="10">
+	<pages>
+		<page>
+			<images>
+				<image material="FadeMaterial" render_queue="97">		
+					<rect x="-1" y="1" w="2" h="2"/>	
+				</image>	
+				<image material="StudioIntroMaterial" render_queue="100">		
+					<rect mode="center" x="0" y="0" w="351" h="220"/>	
+					<action active="1" begin="0" end="50000"/>			
+					<transparency_tracks>
+						<track min="0" max="1" current="0" mode="2" frame_timeout="20" track_time="2000"/>						  <track mode="0" current="1" action_end="3000" track_time="5000"/>
+						<track min="0" max="1" current="1" mode="1" frame_timeout="30" track_time="1000"/>					  </transparency_tracks>
+				</image>		
+			</images>
+		</page>
+	</pages>
+</comix>

@@ -1,0 +1,23 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.4" author="OgreMax Scene Exporter by Derek Nedelman (www.ogremax.com)">
+    <environment>
+        <colourAmbient r="0" g="0" b="0" />
+        <colourBackground r="1" g="1" b="1" />
+    </environment>
+    <nodes>
+        <node name="Illustrate! Art Materials" id="19">
+            <scale x="1" y="1" z="1" />
+            <position x="0" y="0" z="0" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+        </node>
+        <node name="gun1">
+            <scale x="1" y="1" z="1" />
+            <position x="-3.8147e-006" y="0" z="0" />
+            <rotation qx="-4.37114e-008" qy="-4.37114e-008" qz="-4.37114e-008" qw="1" />
+            <entity name="gun1" id="44" meshFile="gun1.mesh" castShadows="true" receiveShadows="true">
+                <subentities>
+                    <subentity index="0" materialName="03-Default" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>

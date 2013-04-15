@@ -1,0 +1,21 @@
+<comix inactive_handler="0" time_limit="0">
+	<pages>
+		<page>
+			<images>	
+				<image material="ComixIntro/BackgroundMaterial" render_queue="99">
+					<rect x="-1" y="1" w="2" h="2"/>
+				</image>
+				<image material="ComixTransport/Material1" render_queue="100">
+					<rect x="-1" y="0.95" w="2" h="1.9"/>
+					<action active="1" begin="0" end="5000"/>					
+					<transparency_tracks>
+						<track min="0" max="1" current="0" mode="2" frame_timeout="10" track_time="1000"/>
+					</transparency_tracks>
+				</image>
+			</images>
+		</page>		
+	</pages>
+	<scripting>
+		<handler action="over" function="TransportScene"/>
+	</scripting>
+</comix>

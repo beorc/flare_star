@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<effect name="fog_bg" duration="200" type="permanent" dirx="0" diry="0" dirz="1" x="0" y="0" z="0" run="1">	
+	<subeffects>
+		<subeffect class="MeshSubEffect" duration="200" type="permanent" dirx="0" diry="0" dirz="1" x="0" y="0" z="0">
+			<model modelname="fog_bk1.mesh"/>	
+			<material/>
+		</subeffect>
+	</subeffects>
+</effect>

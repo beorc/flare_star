@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<effect name="bullet1" duration="500" type="permanent" run="1">	
+	<subeffects>
+		<subeffect class="BillboardSubEffect">
+			<billboard size="50" point_render="on"/>	
+			<material name="Bullets/Bullet1"/>
+		</subeffect>
+	</subeffects>
+</effect>

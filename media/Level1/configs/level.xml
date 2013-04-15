@@ -1,0 +1,102 @@
+<level>
+	<scenes>	
+		<scene file="Level.scene"/>		
+	</scenes>	
+	<rooms>
+		<room size="30000" detail="2" x="0" y="0" z="480000"/>
+		<room size="30000" detail="2" x="0" y="0" z="420000"/>
+		<room size="30000" detail="2" x="0" y="0" z="360000"/>
+		<room size="30000" detail="2" x="0" y="0" z="300000"/>
+		<room size="30000" detail="2" x="0" y="0" z="240000"/>
+		
+		<room size="30000" detail="2" x="0" y="0" z="180000"/>
+		<room size="30000" detail="2" x="0" y="0" z="120000"/>
+		<room size="30000" detail="2" x="0" y="0" z="60000"/>
+		<room size="30000" detail="2" x="0" y="0" z="0"/>
+		<room size="30000" detail="2" x="0" y="0" z="-60000"/>
+		<room size="200000" detail="5" x="0" y="0" z="-290000"/>
+				
+		<room size="90000" detail="2" x="125000" y="0" z="480000"/>
+		<room size="90000" detail="2" x="-125000" y="0" z="480000"/>
+		
+		<room size="90000" detail="2" x="125000" y="0" z="420000"/>
+		<room size="90000" detail="2" x="-125000" y="0" z="420000"/>
+		
+		<room size="90000" detail="2" x="125000" y="0" z="360000"/>
+		<room size="90000" detail="2" x="-125000" y="0" z="360000"/>
+		
+		<room size="90000" detail="2" x="125000" y="0" z="300000"/>
+		<room size="90000" detail="2" x="-125000" y="0" z="300000"/>
+		
+		<room size="90000" detail="2" x="125000" y="0" z="240000"/>
+		<room size="90000" detail="2" x="-125000" y="0" z="240000"/>
+		
+		<room size="90000" detail="2" x="125000" y="0" z="180000"/>
+		<room size="90000" detail="2" x="-125000" y="0" z="180000"/>
+		
+		<room size="90000" detail="2" x="125000" y="0" z="120000"/>
+		<room size="90000" detail="2" x="-125000" y="0" z="120000"/>
+		
+		<room size="90000" detail="2" x="125000" y="0" z="60000"/>
+		<room size="90000" detail="2" x="-125000" y="0" z="60000"/>
+		
+		<room size="90000" detail="2" x="125000" y="0" z="0"/>
+		<room size="90000" detail="2" x="-125000" y="0" z="0"/>
+		
+		<room size="90000" detail="2" x="125000" y="0" z="-60000"/>
+		<room size="90000" detail="2" x="-125000" y="0" z="-60000"/>
+	</rooms>
+	<triggers>
+		<trigger class="ActivationTrigger" min_x="-200000" min_y="-100000" min_z="390000" max_x="200000" max_y="100000" max_z="540000" buffer_zone="2000" id="2">
+			<activation_box min_x="-130000" min_y="-100000" min_z="450000" max_x="130000" max_y="100000" max_z="510000"/>
+		</trigger>
+		<trigger class="ActivationTrigger" min_x="-200000" min_y="-100000" min_z="330000" max_x="200000" max_y="100000" max_z="470000" buffer_zone="2000" id="3">
+			<activation_box min_x="-130000" min_y="-100000" min_z="390000" max_x="130000" max_y="100000" max_z="450000"/>
+		</trigger>
+		<trigger class="ActivationTrigger" min_x="-200000" min_y="-100000" min_z="270000" max_x="200000" max_y="100000" max_z="450000" buffer_zone="2000" id="4">
+			<activation_box min_x="-130000" min_y="-100000" min_z="330000" max_x="130000" max_y="100000" max_z="390000"/>
+		</trigger>
+		<trigger class="ActivationTrigger" min_x="-200000" min_y="-100000" min_z="210000" max_x="200000" max_y="100000" max_z="390000" buffer_zone="2000" id="5">
+			<activation_box min_x="-130000" min_y="-100000" min_z="270000" max_x="130000" max_y="100000" max_z="330000"/>
+		</trigger>
+		<trigger class="ActivationTrigger" min_x="-200000" min_y="-100000" min_z="150000" max_x="200000" max_y="100000" max_z="330000" buffer_zone="2000" id="6">
+			<activation_box min_x="-130000" min_y="-100000" min_z="210000" max_x="130000" max_y="100000" max_z="270000"/>
+		</trigger>
+		
+		<trigger class="ActivationTrigger" min_x="-200000" min_y="-100000" min_z="90000" max_x="200000" max_y="100000" max_z="270000" buffer_zone="2000" id="7">
+			<activation_box min_x="-130000" min_y="-100000" min_z="150000" max_x="130000" max_y="100000" max_z="210000"/>
+		</trigger>
+		<trigger class="ActivationTrigger" min_x="-100000" min_y="-100000" min_z="30000" max_x="100000" max_y="100000" max_z="210000" buffer_zone="2000" id="8">
+			<activation_box min_x="-130000" min_y="-100000" min_z="90000" max_x="130000" max_y="100000" max_z="150000"/>
+		</trigger>
+		<trigger class="ActivationTrigger" min_x="-100000" min_y="-100000" min_z="-30000" max_x="100000" max_y="100000" max_z="150000" buffer_zone="2000" id="9">
+			<activation_box min_x="-130000" min_y="-100000" min_z="30000" max_x="130000" max_y="100000" max_z="90000"/>
+		</trigger>
+		<trigger class="ActivationTrigger" min_x="-100000" min_y="-100000" min_z="-90000" max_x="100000" max_y="100000" max_z="90000" buffer_zone="2000" id="10">	
+			<activation_box min_x="-130000" min_y="-100000" min_z="-30000" max_x="130000" max_y="100000" max_z="30000"/>
+		</trigger>
+		<trigger class="ActivationTrigger" min_x="-100000" min_y="-100000" min_z="-90000" max_x="100000" max_y="100000" max_z="30000" buffer_zone="2000" id="11">
+			<activation_box min_x="-130000" min_y="-100000" min_z="-90000" max_x="130000" max_y="100000" max_z="-30000"/>
+		</trigger>
+		<!-- для комнаты с финальной сценой -->
+		<trigger class="ActivationTrigger" min_x="-200000" min_y="-200000" min_z="-300000" max_x="200000" max_y="200000" max_z="-89000" buffer_zone="0" id="12">	
+			<activation_box min_x="-100000" min_y="-100000" min_z="-300000" max_x="100000" max_y="100000" max_z="-90000"/>
+			<scripting>
+				<handler action="apply_in" function="FinalSceneIn"/>
+			</scripting>
+		</trigger>
+	</triggers>
+	<scripts>	
+		<script file="level.nut"/>
+	</scripts>
+	<objects_library cfg="library.xml"/>
+	<script_handlers>	
+		<handler class="timer" timeout="1000"/>
+	</script_handlers>	
+	<music>
+		<sound file="Fallout.ogg"/>			
+	</music>
+	<sounds>
+		<sound file="MACHINEGUN1_2.ogg"/>
+	</sounds>
+</level>

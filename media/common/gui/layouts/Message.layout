@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout">
+    <Widget type="Window" skin="WindowC" position_real="0.199999988 0.24000001 0.479999989 0.306666672" layer="Back">
+        <Property key="Widget_AlignText" value="ALIGN_LEFT ALIGN_VCENTER"/>
+        <Property key="Widget_Caption" value="Message"/>
+        <Widget type="StaticText" skin="StaticText" position_real="0.0560000017 0.0675675645 0.874666691 0.432432443" name="TextContent"/>
+        <Widget type="Button" skin="ButtonSmall" position_real="0.35466668 0.608108103 0.362666667 0.270270258" name="MessageButtonOK">
+            <Property key="Widget_Caption" value="OK"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonSmall" position="205 90 136 40">
+            <Property key="Widget_Caption" value="Cancel"/>
+            <Property key="Widget_Show" value="false"/>
+        </Widget>
+    </Widget>
+</MyGUI>

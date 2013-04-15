@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<game>
+	<stalling stall_size="0.1" forestall_size="0.05"/>
+	<sensor size="0.01"/>
+	<intro music="tangents.ogg"/>
+	<hud render_queue="60" border="0.01">
+		<auto_pilot material_active="HUD/AutoPilotActive" material_inactive="HUD/AutoPilotInactive" x="-1" y="1" w="0.1" h="0.1"/>
+		<equipment number="1" x="0.2" y="1" w="0.3" h="0.3" material_inactive="TransparentMaterial"/>
+		<bonuses number="5" x="-0.5" y="1" w="0.1" h="0.1" material_inactive="TransparentMaterial"/>
+	</hud>
+	<camera fov="60" ap_stabilize="20" cam2player="10" rs_grow="0.98" rs_dump="0.99" rs_max="80" rs_buffer="20">
+		<min x="0" y="150" z="300"/>		
+		<max x="0" y="150" z="900"/>
+		<default x="0" y="150" z="600"/>
+	</camera>
+	<player>
+		<strafe_roll roll_speed="10" roll_fps="60" max_roll_angle="10" angle_buffer="5"/>
+		<look_roll roll_speed="10" roll_fps="10" max_roll_angle="6" angle_buffer="3"/>
+	</player>
+	<levels>
+		<level path="media/level1/"/>
+		<level path="media/level2/"/>
+	</levels>
+	<turn_based>
+		<camera x="5000" y="5000" z="5000"/>
+	</turn_based>	
+</game>

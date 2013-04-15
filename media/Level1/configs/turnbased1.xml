@@ -1,0 +1,3 @@
+<turn_based cells_num_x="6" cells_num_y="6" world_w="50000" world_h="50000">
+	<field x="0" y="0" w="1" h="1"/>	
+</turn_based>

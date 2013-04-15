@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<effect name="container2_eff" duration="500" type="permanent" run="1">	
+	<subeffects>
+		<subeffect class="BillboardSubEffect">
+			<billboard size="2000"/>	
+			<material name="Bonuses/Bonus2"/>
+		</subeffect>
+	</subeffects>
+</effect>
+

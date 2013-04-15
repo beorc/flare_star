@@ -1,0 +1,22 @@
+<obj physical="dynamic" class="Dynamic Physics" modelname="laoke.mesh" collismodel="laoke_collision.mesh" collisdetection="mesh" collisresponse="trikick" group="friend" roomable="on" room_only="0" id="-1">	
+	<equipment>
+		<slots>
+			<eqslot x="60" y="-600" z="-400" slottype="1"/>			
+		</slots>
+		<bonuses>
+                <bonus lid="1"/>
+        </bonuses>
+	</equipment>
+	<AI attack_mode="aliens">
+		<strategies>		
+			<!--<strategy class="AIRayPathFinderStrategy" raysnum="5" target_id="0" dist_to_target="4000"/>-->
+			<!--<strategy class="AISightNAttackStrategy" target_id="0" rotation_speed="10"/>-->
+			<!--<strategy class="AILookAtObjectStrategy" type="object" target_id="1" rotation_speed="50"/>-->
+			<strategy class="AIBasicPathFinderStrategy" dist_to_target="100"/>
+			<strategy class="AIInConeAttackStrategy" target_id="0" rotation_speed="30" cone_angle="60"/>
+		</strategies>
+	</AI>
+	<!--<destructable max_health="50000" health="100"/>-->
+	<physics maxspeed_x="100" maxspeed_y="100" maxspeed_z="600" stepspeed_x="2" stepspeed_y="2" stepspeed_z="2" mass="30">
+	</physics>
+</obj>

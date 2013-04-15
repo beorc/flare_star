@@ -1,0 +1,36 @@
+
+
+material fog_bk1_material
+{
+	receive_shadows on
+	transparency_casts_shadows off
+	technique Map#1
+	{
+		pass Map#2
+		{
+			ambient 0.843137 0.917647 0.945098 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 17.5
+			emissive 0 0 0 1
+			scene_blend src_alpha one_minus_src_alpha
+			depth_check on
+			depth_write on
+			depth_func less_equal
+			depth_bias 0 0
+			alpha_rejection always_pass 0
+			cull_hardware none
+			cull_software none
+			lighting on
+			shading gouraud
+			polygon_mode solid
+			fog_override true linear 0 0 0 0 1.49012e-008 50
+			colour_write on
+			max_lights 8
+			start_light 0
+			iteration once 
+		}
+
+	}
+
+}
+

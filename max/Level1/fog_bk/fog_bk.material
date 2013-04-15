@@ -1,0 +1,66 @@
+material NoMaterial
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7 
+			diffuse 0.7 0.7 0.7 
+		}
+	}
+}
+
+
+material fog_bk_material
+{
+	receive_shadows on
+	transparency_casts_shadows off
+	technique Map#1
+	{
+		pass Map#2
+		{
+			ambient vertexcolour
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 16.6
+			emissive 0 0 0 1
+			scene_blend one zero
+			depth_check on
+			depth_write on
+			depth_func less_equal
+			depth_bias 0 0
+			alpha_rejection always_pass 0
+			cull_hardware none
+			cull_software front
+			lighting on
+			shading gouraud
+			polygon_mode solid
+			fog_override true exp 0.282353 0.333333 0.686275 0 0 0
+			colour_write on
+			max_lights 8
+			start_light 0
+			iteration once 
+			texture_unit Map#3
+			{
+				content_type shadow
+				binding_type fragment
+				tex_coord_set 0
+				tex_address_mode wrap wrap wrap
+				tex_border_colour 0 0 0 1
+				filtering trilinear
+				max_anisotropy 1
+				mipmap_bias 0
+				colour_op_ex modulate src_texture src_current
+				alpha_op_ex modulate src_texture src_current
+				colour_op_multipass_fallback one zero
+				env_map off
+				rotate 90
+				scroll_anim 0.01 0
+				rotate_anim 0.02
+			}
+
+		}
+
+	}
+
+}
+

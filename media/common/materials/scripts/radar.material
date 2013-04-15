@@ -1,0 +1,260 @@
+material Radar/Background
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit
+			{				
+				texture radar_back.png
+				colour_op_ex blend_texture_alpha
+			}
+		}
+	}
+}
+
+material Radar/ObjMaterialUp
+{
+	receive_shadows off
+	transparency_casts_shadows off
+	technique Map#1
+	{
+		pass Map#2
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 20
+			emissive 0 0 0 1
+			scene_blend alpha_blend
+			depth_check off
+			depth_write off
+			depth_func less_equal
+			depth_bias 0 0
+			alpha_rejection always_pass 0
+			cull_hardware clockwise
+			cull_software back
+			lighting off
+			shading gouraud
+			polygon_mode solid
+			colour_write on
+			max_lights 8
+			start_light 0
+			iteration once 
+			texture_unit Map#3
+			{
+				texture triangle_radar_up.png 2d unlimited alpha 
+				binding_type fragment
+				tex_coord_set 0
+				tex_address_mode wrap wrap wrap
+				tex_border_colour 0 0 0 1
+				filtering trilinear
+				max_anisotropy 1
+				mipmap_bias 0
+				colour_op_ex blend_texture_alpha
+				alpha_op_ex modulate src_texture src_current
+				colour_op_multipass_fallback one zero
+				env_map off
+			}
+
+		}
+
+	}
+}
+
+material Radar/ObjMaterialDn
+{
+	receive_shadows off
+	transparency_casts_shadows off
+	technique Map#1
+	{
+		pass Map#2
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 20
+			emissive 0 0 0 1
+			scene_blend alpha_blend
+			depth_check off
+			depth_write off
+			depth_func less_equal
+			depth_bias 0 0
+			alpha_rejection always_pass 0
+			cull_hardware clockwise
+			cull_software back
+			lighting off
+			shading gouraud
+			polygon_mode solid
+			colour_write on
+			max_lights 8
+			start_light 0
+			iteration once 
+			texture_unit Map#3
+			{
+				texture triangle_radar_dn.png 2d unlimited alpha 
+				binding_type fragment
+				tex_coord_set 0
+				tex_address_mode wrap wrap wrap
+				tex_border_colour 0 0 0 1
+				filtering trilinear
+				max_anisotropy 1
+				mipmap_bias 0
+				colour_op_ex blend_texture_alpha
+				alpha_op_ex modulate src_texture src_current
+				colour_op_multipass_fallback one zero
+				env_map off
+			}
+
+		}
+
+	}
+
+}
+
+material Radar/CompasObjMaterialUp
+{
+	receive_shadows off
+	transparency_casts_shadows off
+	technique Map#1
+	{
+		pass Map#2
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 20
+			emissive 0 0 0 1
+			scene_blend alpha_blend
+			depth_check off
+			depth_write off
+			depth_func less_equal
+			depth_bias 0 0
+			alpha_rejection always_pass 0
+			cull_hardware clockwise
+			cull_software back
+			lighting off
+			shading gouraud
+			polygon_mode solid
+			colour_write on
+			max_lights 8
+			start_light 0
+			iteration once 
+			texture_unit Map#3
+			{
+				texture triangle_compas_up.png 2d unlimited alpha 
+				binding_type fragment
+				tex_coord_set 0
+				tex_address_mode wrap wrap wrap
+				tex_border_colour 0 0 0 1
+				filtering trilinear
+				max_anisotropy 1
+				mipmap_bias 0
+				colour_op_ex blend_texture_alpha
+				alpha_op_ex modulate src_texture src_current
+				colour_op_multipass_fallback one zero
+				env_map off
+			}
+
+		}
+
+	}
+}
+
+material Radar/CompasObjMaterialDn
+{
+	receive_shadows off
+	transparency_casts_shadows off
+	technique Map#1
+	{
+		pass Map#2
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 20
+			emissive 0 0 0 1
+			scene_blend alpha_blend
+			depth_check off
+			depth_write off
+			depth_func less_equal
+			depth_bias 0 0
+			alpha_rejection always_pass 0
+			cull_hardware clockwise
+			cull_software back
+			lighting off
+			shading gouraud
+			polygon_mode solid
+			colour_write on
+			max_lights 8
+			start_light 0
+			iteration once 
+			texture_unit Map#3
+			{
+				texture triangle_compas_dn.png 2d unlimited alpha 
+				binding_type fragment
+				tex_coord_set 0
+				tex_address_mode wrap wrap wrap
+				tex_border_colour 0 0 0 1
+				filtering trilinear
+				max_anisotropy 1
+				mipmap_bias 0
+				colour_op_ex blend_texture_alpha
+				alpha_op_ex modulate src_texture src_current
+				colour_op_multipass_fallback one zero
+				env_map off
+			}
+
+		}
+
+	}
+}
+
+material Radar/CompasFarMaterial
+{
+	receive_shadows off
+	transparency_casts_shadows off
+	technique Map#1
+	{
+		pass Map#2
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 20
+			emissive 0 0 0 1
+			scene_blend alpha_blend
+			depth_check off
+			depth_write off
+			depth_func less_equal
+			depth_bias 0 0
+			alpha_rejection always_pass 0
+			cull_hardware clockwise
+			cull_software back
+			lighting off
+			shading gouraud
+			polygon_mode solid
+			colour_write on
+			max_lights 8
+			start_light 0
+			iteration once 
+			texture_unit Map#3
+			{
+				texture compas_checkpoint.png 2d unlimited alpha 
+				binding_type fragment
+				tex_coord_set 0
+				tex_address_mode wrap wrap wrap
+				tex_border_colour 0 0 0 1
+				filtering trilinear
+				max_anisotropy 1
+				mipmap_bias 0
+				colour_op_ex blend_texture_alpha
+				alpha_op_ex modulate src_texture src_current
+				colour_op_multipass_fallback one zero
+				env_map off
+			}
+
+		}
+
+	}
+}
+

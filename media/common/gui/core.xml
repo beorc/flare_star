@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MyGUI>
+
+    <MyGUI type="List">
+      <List file="core_resource.xml" group="GUI"/>
+      <List file="core_keyboard.xml" group="GUI"/>
+	    <List file="core_language.xml" group="GUI"/>
+	    <List file="core_layer.xml" group="GUI"/>
+	    <List file="core_font.xml" group="GUI"/>
+	    <List file="core_skin.xml" group="GUI"/>
+	    <List file="core_skin_new.xml" group="GUI"/>
+	    <List file="core_pointer.xml" group="GUI"/>
+	    <List file="core_pointer_new.xml" group="GUI"/>
+    </MyGUI>
+
+</MyGUI>

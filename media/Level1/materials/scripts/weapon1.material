@@ -1,0 +1,40 @@
+material 02-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 
+			diffuse 0.588235 0.588235 0.588235 
+			specular 0 0 0 10
+			emissive 0 0 0 
+
+			texture_unit 
+			{
+				texture texture_copy.jpg
+			}
+		}
+	}
+}
+
+
+material Material#0
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 
+			diffuse 0.588 0.588 0.588 
+			specular 0 0 0 10
+			emissive 0 0 0 
+
+			texture_unit 
+			{
+				texture turret_tex.png
+			}
+		}
+	}
+}
+
+

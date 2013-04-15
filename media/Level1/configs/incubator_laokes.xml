@@ -1,0 +1,29 @@
+<incubator period="0" x="0" y="0" z="0" active="off" id="106" born_tout="1000">	
+	<obj physical="dynamic" class="Dynamic Physics" modelname="laoke.mesh"  collismodel="laoke_collision.mesh" collisdetection="mesh" collisresponse="trikick" x="10000" y="10000" z="10000" roomable="on" room_only="0"  group="friend" id="107">
+				<equipment>
+					<slots>
+						<eqslot x="60" y="60" z="-400" slottype="1"/>
+						<eqslot x="-60" y="60" z="-400" slottype="2"/>
+						<eqslot x="0" y="-1600" z="-400" slottype="3"/>
+					</slots>
+					<bonuses>		
+						<!--<bonus lid="1"/>-->
+						<bonus lid="8"/>
+					</bonuses>
+				</equipment>
+				<AI attack_mode="aliens">
+					<strategies>
+						<!--<strategy class="AIRayPathFinderStrategy" target_id="0" raysnum="9" dist_to_target="7000"/>						
+						<strategy class="AIInConeAttackStrategy" target_id="0" rotation_speed="10" cone_angle="60"/>-->
+						<strategy class="AIRayPathFinderStrategy" target_id="0" raysnum="9" dist_to_target="100"/>
+						<strategy class="AIFlyNAttack1Strategy" target_id="0" rotation_speed="40" min_dist="10000" max_dist="40000" buffer_dist="5000"/>
+						<strategy class="AIAckerFormationCommander" x="100" y="100" z="100" waypoints_dist="3000" fixed_waypoints="1" shift_size="5000">
+							<obj class="Dynamic Physics" lid="19" x="600" y="0" z="0"/>
+							<obj class="Dynamic Physics" lid="19" x="1200" y="0" z="0"/>							
+						</strategy>
+					</strategies>			
+				</AI>
+				<physics maxspeed_x="100" maxspeed_y="100" maxspeed_z="600" stepspeed_x="20" stepspeed_y="20" stepspeed_z="20" mass="30">
+				</physics>
+	</obj>	
+</incubator>

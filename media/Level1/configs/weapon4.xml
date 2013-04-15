@@ -1,0 +1,6 @@
+<weapon modelname="weapon1.mesh" class="GenericWeapon" timeout="2000" slottype="3" dirx="0" diry="0" dirz="1" barrel="-1500" cone_angle="30">
+	<ammo lid="9"/>
+	<effects>
+		<effect class="MeshEffect" lid="16"/>
+	</effects>	
+</weapon>

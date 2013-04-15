@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout">
+    <Widget type="Widget" skin="PanelSmall" position_real="0.00249999994 0.166666672 0.411249995 0.625" align="ALIGN_CENTER" layer="Main">
+        <Property key="Widget_Caption" value=""/>
+        <Property key="Widget_Alpha" value="0"/>
+        <Widget type="Button" skin="Button" position_real="0.0729483292 0.0693333298 0.848024309 0.106666669" name="ButtonNewGame">
+            <Property key="Widget_Caption" value="New Game"/>
+            <Property key="Widget_InheritsAlpha" value="false"/>
+        </Widget>
+        <Widget type="Button" skin="Button" position_real="0.0729483292 0.226666674 0.848024309 0.106666669" name="ButtonContinue">
+            <Property key="Widget_Caption" value="Load Game"/>
+            <Property key="Widget_InheritsAlpha" value="false"/>
+        </Widget>
+        <Widget type="Button" skin="Button" position_real="0.0759878457 0.386666656 0.848024309 0.106666669" name="ButtonOptions">
+            <Property key="Widget_Caption" value="Options"/>
+            <Property key="Widget_InheritsAlpha" value="false"/>
+        </Widget>
+        <Widget type="Button" skin="Button" position_real="0.0759878457 0.546666682 0.848024309 0.106666669" name="ButtonCredits">
+            <Property key="Widget_Caption" value="Credits"/>
+            <Property key="Widget_InheritsAlpha" value="false"/>
+        </Widget>
+        <Widget type="Button" skin="Button" position_real="0.0729483292 0.706666648 0.848024309 0.106666669" name="ButtonQuit">
+            <Property key="Widget_Caption" value="Quit"/>
+            <Property key="Widget_InheritsAlpha" value="false"/>
+        </Widget>
+        <Widget type="Button" skin="Button" position_real="0.0759878457 0.866666675 0.848024309 0.106666669" name="ButtonResume">
+            <Property key="Widget_InheritsAlpha" value="false"/>
+            <Property key="Widget_Caption" value="Resume Game"/>
+        </Widget>
+    </Widget>
+</MyGUI>

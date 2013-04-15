@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<effect name="muzzle" duration="200" type="onshoot" dirx="0" diry="0" dirz="1" x="0" y="0" z="-250">	
+	<subeffects>
+		<subeffect class="MeshSubEffect" duration="200">
+			<model modelname="muzzle1.mesh"/>	
+			<material/>
+		</subeffect>
+	</subeffects>	
+</effect>

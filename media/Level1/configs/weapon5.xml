@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<weapon modelname="weapon1.mesh" class="GenericWeapon" timeout="200" slottype="1" dirx="0" diry="0" dirz="1" barrel="-200" dispersion="0.08">
+	<ammo lid="25"/>
+	<effects>
+		<effect class="MeshEffect" lid="35"/>
+	</effects>
+	<crosshair material="Crosshairs/Fire" min_distance="700" max_distance="2000" size="50"/>	
+</weapon>

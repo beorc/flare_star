@@ -1,0 +1,12 @@
+<incubator period="-1" x="0" y="0" z="0" id="-1" volatile="on" dir_x="0" dir_y="0" dir_z="1">	
+	<obj class="Dynamic Physics" cfg="meteorit2.xml" x="-45000" y="-45000" z="0"/>
+	<obj class="Dynamic Physics" cfg="meteorit2.xml" x="0" y="-45000" z="0"/>
+	<obj class="Dynamic Physics" cfg="meteorit2.xml" x="45000" y="-45000" z="0"/>
+	
+	<obj class="Dynamic Physics" cfg="meteorit2.xml" x="-45000" y="0" z="0"/>	
+	<obj class="Dynamic Physics" cfg="meteorit2.xml" x="45000" y="0" z="0"/>
+	
+	<obj class="Dynamic Physics" cfg="meteorit2.xml" x="-45000" y="45000" z="0"/>
+	<obj class="Dynamic Physics" cfg="meteorit2.xml" x="0" y="45000" z="0"/>
+	<obj class="Dynamic Physics" cfg="meteorit2.xml" x="45000" y="45000" z="0"/>
+</incubator>

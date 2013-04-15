@@ -1,0 +1,18 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.4" author="OgreMax Scene Exporter by Derek Nedelman (www.ogremax.com)">
+    <environment>
+        <colourAmbient r="0.658824" g="0.658824" b="0.658824" />
+        <colourBackground r="0" g="0" b="0" />
+    </environment>
+    <nodes>
+        <node name="rocket1">
+            <scale x="1" y="1" z="1" />
+            <position x="0.0239143" y="7.12416" z="-0.496811" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="rocket1" id="16" meshFile="rocket1.mesh" castShadows="true" receiveShadows="true">
+                <subentities>
+                    <subentity index="0" materialName="rocket1_material" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>
